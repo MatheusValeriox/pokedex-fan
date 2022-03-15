@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Pokédex - fãn</title>
+   <link rel="shortcut icon" href="src/favicon.ico" type="image/x-icon">
+   <link rel="icon" href="src/favicon.ico" type="image/x-icon">
+   <link rel="stylesheet" href="src/imagens/css/reset.css">
+   <link rel="stylesheet" href="src/imagens/css/global.css">
+   <link rel="stylesheet" href="src/imagens/css/cartao.css">
+   <link rel="stylesheet" href="src/imagens/css/listagem.css">
+   <link rel="stylesheet" href="src/imagens/css/responsivo.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+   <main>
+      <div class="pokedex">
+         <div class="cartoes-pokemon">
+            <div class="cartao-pokemon aberto" id="cartao-pikachu">
+               <div class="cartao-topo tipo-eletrico">
+                  <div class="detalhes">
+                     <h2 class="nome">Pikachu</h2>
+                     <span>#001</span>
+                  </div>
+                  <span class="tipo">Elétrico</span>
+                  <div class="cartao-imagem">
+                     <img src="src/imagens/pikachu.png" alt="imagem do pikashu">
+                  </div>
+               </div>
+               <div class="cartao-informacoes">
+                  <div class="status">
+                     <h3>Status</h3>
+                     <ul>
+                        <li>HP: 35</li>
+                        <li>Ataque: 55</li>
+                        <li>Defesa: 40</li>
+                        <li>Vel. Ataque: 50</li>
+                        <li>Vel. Defesa: 50</li>
+                        <li>Velocidade: 90</li>
+                        <li>Total: 320</li>
+                     </ul>
+                  </div>
+                  <div class="habilidades">
+                     <h3>Habilidades</h3>
+                     <ul>
+                        <li>Choque do trovão</li>
+                        <li>Rosnar</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="cartao-pokemon" id="cartao-bulbasaur">
+               <div class="cartao-topo tipo-grama">
+                  <div class="detalhes">
+                     <h2 class="nome">Bulbasaur</h2>
+                     <span>#002</span>
+                  </div>
+                  <span class="tipo">Planta</span>
+                  <div class="cartao-imagem">
+                     <img src="src/imagens/bulbasaur.png" alt="imagem do bulbasaur">
+                  </div>
+               </div>
+               <div class="cartao-informacoes">
+                  <div class="status">
+                     <h3>Status</h3>
+                     <ul>
+                        <li>HP: 45</li>
+                        <li>Ataque: 49</li>
+                        <li>Defesa: 49</li>
+                        <li>Vel. Ataque: 65</li>
+                        <li>Vel. Defesa: 65</li>
+                        <li>Velocidade: 45</li>
+                        <li>Total: 318</li>
+                     </ul>
+                  </div>
+                  <div class="habilidades">
+                     <h3>Habilidades</h3>
+                     <ul>
+                        <li>Rosnar</li>
+                        <li>Chicote de videira</li>
+
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="cartao-pokemon" id="cartao-charmander">
+               <div class="cartao-topo tipo-fogo">
+                  <div class="detalhes">
+                     <h2 class="nome">Charmander</h2>
+                     <span>#003</span>
+                  </div>
+                  <span class="tipo">Fogo</span>
+                  <div class="cartao-imagem">
+                     <img src="src/imagens/charmander.png" alt="imagem do charmander">
+                  </div>
+               </div>
+               <div class="cartao-informacoes">
+                  <div class="status">
+                     <h3>Status</h3>
+                     <ul>
+                        <li>HP: 39</li>
+                        <li>Ataque: 52</li>
+                        <li>Defesa: 43</li>
+                        <li>Vel. Ataque: 60</li>
+                        <li>Vel. Defesa: 50</li>
+                        <li>Velocidade: 65</li>
+                        <li>Total: 309</li>
+                     </ul>
+                  </div>
+                  <div class="habilidades">
+                     <h3>Habilidades</h3>
+                     <ul>
+                        <li>Incendiar</li>
+                        <li>Arranhar</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="cartao-pokemon" id="cartao-gyarados">
+               <div class="cartao-topo tipo-agua">
+                  <div class="detalhes">
+                     <h2 class="nome">Gyarados</h2>
+                     <span>#004</span>
+                  </div>
+                  <span class="tipo">Água</span>
+                  <div class="cartao-imagem">
+                     <img src="src/imagens/gyarados.png" alt="imagem do gyarados">
+                  </div>
+               </div>
+               <div class="cartao-informacoes">
+                  <div class="status">
+                     <h3>Status</h3>
+                     <ul>
+                        <li>HP: 95</li>
+                        <li>Ataque: 125</li>
+                        <li>Defesa: 79</li>
+                        <li>Vel. Ataque: 60</li>
+                        <li>Vel. Defesa: 100</li>
+                        <li>Velocidade: 81</li>
+                        <li>Total: 540</li>
+                     </ul>
+                  </div>
+                  <div class="habilidades">
+                     <h3>Habilidades</h3>
+                     <ul>
+                        <li>Hidro canhão</li>
+                        <li>Cauda aqua</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="cartao-pokemon" id="cartao-gengar">
+               <div class="cartao-topo tipo-fantasma">
+                  <div class="detalhes">
+                     <h2 class="nome">Gengar</h2>
+                     <span>#005</span>
+                  </div>
+                  <span class="tipo">Fantasma</span>
+                  <div class="cartao-imagem">
+                     <img src="src/imagens/gengar.png" alt="imagem do gengar">
+                  </div>
+               </div>
+               <div class="cartao-informacoes">
+                  <div class="status">
+                     <h3>Status</h3>
+                     <ul>
+                        <li>HP: 60</li>
+                        <li>Ataque: 65</li>
+                        <li>Defesa: 60</li>
+                        <li>Vel. Ataque: 130</li>
+                        <li>Vel. Defesa: 75</li>
+                        <li>Velocidade: 110</li>
+                        <li>Total: 500</li>
+                     </ul>
+                  </div>
+                  <div class="habilidades">
+                     <h3>Habilidades</h3>
+                     <ul>
+                        <li>Raio de confusão</li>
+                        <li>Hipnose</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="cartao-pokemon" id="cartao-dragonite">
+               <div class="cartao-topo tipo-dragao">
+                  <div class="detalhes">
+                     <h2 class="nome">Dragonite</h2>
+                     <span>#006</span>
+                  </div>
+                  <span class="tipo">Fogo</span><span class="tipo">Dragão</span>
+                  <div class="cartao-imagem">
+                     <img src="src/imagens/dragonite.png" alt="imagem do dragonite">
+                  </div>
+               </div>
+               <div class="cartao-informacoes">
+                  <div class="status">
+                     <h3>Status</h3>
+                     <ul>
+                        <li>HP: 91</li>
+                        <li>Ataque: 134</li>
+                        <li>Defesa: 95</li>
+                        <li>Vel. Ataque: 100</li>
+                        <li>Vel. Defesa: 100</li>
+                        <li>Velocidade: 80</li>
+                        <li>Total: 600</li>
+                     </ul>
+                  </div>
+                  <div class="habilidades">
+                     <h3>Habilidades</h3>
+                     <ul>
+                        <li>Soco de fogo</li>
+                        <li>Velocidade extrema</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="cartao-pokemon" id="cartao-mewtwo">
+               <div class="cartao-topo tipo-psic">
+                  <div class="detalhes">
+                     <h2 class="nome">Mewtwo</h2>
+                     <span>#007</span>
+                  </div>
+                  <span class="tipo">Psíquico</span>
+                  <div class="cartao-imagem">
+                     <img src="src/imagens/mewtwo.png" alt="imagem do mewtwo">
+                  </div>
+               </div>
+               <div class="cartao-informacoes">
+                  <div class="status">
+                     <h3>Status</h3>
+                     <ul>
+                        <li>HP: 106</li>
+                        <li>Ataque: 110</li>
+                        <li>Defesa: 90</li>
+                        <li>Vel. Ataque: 154</li>
+                        <li>Vel. Defesa: 90</li>
+                        <li>Velocidade: 130</li>
+                        <li>Total: 680</li>
+                     </ul>
+                  </div>
+                  <div class="habilidades">
+                     <h3>Habilidades</h3>
+                     <ul>
+                        <li>Confusão</li>
+                        <li>Corte psíquico</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="cartao-pokemon" id="cartao-articuno">
+               <div class="cartao-topo tipo-agua">
+                  <div class="detalhes">
+                     <h2 class="nome">Articuno</h2>
+                     <span>#008</span>
+                  </div>
+                  <span class="tipo">Gelo</span><span class="tipo">Voador</span>
+                  <div class="cartao-imagem">
+                     <img src="src/imagens/articuno.png" alt="imagem do articuno">
+                  </div>
+               </div>
+               <div class="cartao-informacoes">
+                  <div class="status">
+                     <h3>Status</h3>
+                     <ul>
+                        <li>HP: 90</li>
+                        <li>Ataque: 85</li>
+                        <li>Defesa: 100</li>
+                        <li>Vel. Ataque: 95</li>
+                        <li>Vel. Defesa: 125</li>
+                        <li>Velocidade: 85</li>
+                        <li>Total: 580</li>
+                     </ul>
+                  </div>
+                  <div class="habilidades">
+                     <h3>Habilidades</h3>
+                     <ul>
+                        <li>Rajada</li>
+                        <li>Névoa</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="cartao-pokemon" id="cartao-zapdos">
+               <div class="cartao-topo tipo-eletrico">
+                  <div class="detalhes">
+                     <h2 class="nome">Zapdos</h2>
+                     <span>#009</span>
+                  </div>
+                  <span class="tipo">Elétrico</span><span class="tipo">Voador</span>
+                  <div class="cartao-imagem">
+                     <img src="src/imagens/zapdos.png" alt="imagem do zapdos">
+                  </div>
+               </div>
+               <div class="cartao-informacoes">
+                  <div class="status">
+                     <h3>Status</h3>
+                     <ul>
+                        <li>HP: 90</li>
+                        <li>Ataque: 90</li>
+                        <li>Defesa: 85</li>
+                        <li>Vel. Ataque: 125</li>
+                        <li>Vel. Defesa: 90</li>
+                        <li>Velocidade: 100</li>
+                        <li>Total: 580</li>
+                     </ul>
+                  </div>
+                  <div class="habilidades">
+                     <h3>Habilidades</h3>
+                     <ul>
+                        <li>Bicar</li>
+                        <li>Onda de trovão</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <nav class="listagem">
+            <ul>
+               <li class="pokemon ativo" id="pikachu">
+                  <img src="src/imagens/cabeca-pikachu.png" alt="Cabeça do pikachu">
+                  <span>Pikachu</span>
+               </li>
+               <li class="pokemon" id="bulbasaur">
+                  <img src="src/imagens/cabeca-bulbasaur.png" alt="Cabeça do bulbasaur">
+                  <span>Bulbasaur</span>
+               </li>
+               <li class="pokemon" id="charmander">
+                  <img src="src/imagens/cabeca-charmander.png" alt="Cabeça do charmander">
+                  <span>Charmander</span>
+               </li>
+               <li class="pokemon" id="gyarados">
+                  <img src="src/imagens/cabeca-gyarados.png" alt="Cabeça do gyarados">
+                  <span>Gyarados</span>
+               </li>
+               <li class="pokemon" id="gengar">
+                  <img src="src/imagens/cabeca-gengar.png" alt="Cabeça do Gengar">
+                  <span>Gengar</span>
+               </li>
+               <li class="pokemon" id="dragonite">
+                  <img src="src/imagens/cabeca-dragonite.png" alt="Cabeça do dragonite">
+                  <span>Dragonite</span>
+               </li>
+               <li class="pokemon" id="mewtwo">
+                  <img src="src/imagens/cabeca-mewtwo1.png" alt="Cabeça do mewtwo">
+                  <span>Mewtwo</span>
+               </li>
+               <li class="pokemon" id="articuno">
+                  <img src="src/imagens/cabeca-articuno.png" alt="Cabeça do articuno">
+                  <span>Articuno</span>
+               </li>
+               <li class="pokemon" id="zapdos">
+                  <img src="src/imagens/cabeca-zapdos.png" alt="Cabeça do zapdos">
+                  <span>Zapdos</span>
+               </li>
+            </ul>
+         </nav>
+      </div>
+   </main>
+   <script src="src/js/index.js"></script>
+</body>
+
+</html>
